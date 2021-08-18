@@ -13,6 +13,9 @@ cc_defaults {
     include_dirs: [
         "system/bt",
     ],
+    cflags: [
+        "-Wno-non-c-typedef-for-linkage",
+    ],
 }
 
 // Audio A2DP shared library for target

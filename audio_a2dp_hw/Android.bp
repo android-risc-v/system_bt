@@ -15,6 +15,9 @@ cc_defaults {
         "system/bt/include",
         "system/bt/audio_a2dp_hw/include",
     ],
+    cflags: [
+        "-Wno-non-c-typedef-for-linkage",
+    ],
 }
 
 // Audio A2DP shared library for target
