@@ -248,7 +248,7 @@ cc_test {
     cflags: ["-DBUILDCFG"],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
         misc_undefined: ["bounds"],
     },
 }

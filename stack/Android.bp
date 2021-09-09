@@ -502,7 +502,7 @@ cc_test {
     ],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
         misc_undefined: ["bounds"],
     },
 }
@@ -552,7 +552,7 @@ cc_test {
     ],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
         misc_undefined: ["bounds"],
     },
 }
@@ -588,7 +588,7 @@ cc_test {
     ],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
         misc_undefined: ["bounds"],
     },
 }
@@ -663,7 +663,7 @@ cc_test {
         "libosi",
     ],
     sanitize: {
-        cfi: true,
+        cfi: false,
         scs: true,
         address: true,
         all_undefined: true,
@@ -807,7 +807,7 @@ cc_test {
     sanitize: {
         address: true,
         all_undefined: true,
-        cfi: true,
+        cfi: false,
         integer_overflow: true,
         scs: true,
         diag: {
@@ -849,7 +849,7 @@ cc_test {
     sanitize: {
         address: true,
         all_undefined: true,
-        cfi: true,
+        cfi: false,
         integer_overflow: true,
         scs: true,
         diag: {
@@ -897,7 +897,7 @@ cc_test {
     sanitize: {
         address: true,
         all_undefined: true,
-        cfi: true,
+        cfi: false,
         integer_overflow: true,
         scs: true,
         diag: {
@@ -956,7 +956,7 @@ cc_test {
     sanitize: {
         address: true,
         all_undefined: true,
-        cfi: true,
+        cfi: false,
         integer_overflow: true,
         scs: true,
         diag: {
@@ -1027,7 +1027,7 @@ cc_test {
     sanitize: {
         address: true,
         all_undefined: true,
-        cfi: true,
+        cfi: false,
         integer_overflow: true,
         scs: true,
         diag: {

@@ -131,7 +131,7 @@ cc_test {
     ],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
         misc_undefined: ["bounds"],
     },
 }
@@ -170,7 +170,7 @@ cc_test {
     ],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
         misc_undefined: ["bounds"],
     },
 }

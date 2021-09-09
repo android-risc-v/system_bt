@@ -277,7 +277,7 @@ cc_binary {
     },
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
     }
 }
 
@@ -468,7 +468,7 @@ cc_test {
     ],
     sanitize: {
         address: true,
-        cfi: true,
+        cfi: false,
     },
     static_libs: [
         "libchrome",

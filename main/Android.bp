@@ -257,7 +257,7 @@ cc_test {
     sanitize: {
         address: true,
         all_undefined: true,
-        cfi: true,
+        cfi: false,
         integer_overflow: true,
         scs: true,
         diag: {
