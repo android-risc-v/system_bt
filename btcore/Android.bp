@@ -31,6 +31,7 @@ cc_library_static {
             cflags: ["-D_GNU_SOURCE"],
         },
     },
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 // Note: It's good to get the tests compiled both for the host and the target so

@@ -62,6 +62,7 @@ cc_library_static {
     ],
     header_libs: ["libbt_callbacks_cxx_headers"],
     host_supported: true,
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 cc_library_shared {
@@ -194,6 +195,7 @@ cc_library_static {
     ],
     cflags: [
         "-DBUILDCFG",
+        "-Wno-non-c-typedef-for-linkage",
     ],
     shared_libs: [
         "libflatbuffers-cpp",

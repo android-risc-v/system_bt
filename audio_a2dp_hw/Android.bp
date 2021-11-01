@@ -44,6 +44,7 @@ cc_library_static {
         "src/audio_a2dp_hw_utils.cc",
     ],
     host_supported: true,
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 // Audio A2DP library unit tests for target and host

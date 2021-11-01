@@ -24,6 +24,7 @@ cc_library_static {
         "lib-bt-packets",
         "libbluetooth-types",
     ],
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 cc_test {

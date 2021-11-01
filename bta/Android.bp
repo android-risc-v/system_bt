@@ -120,6 +120,7 @@ cc_library_static {
         "lib-bt-packets",
     ],
     host_supported: true,
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 // bta unit tests for target

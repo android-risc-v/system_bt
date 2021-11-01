@@ -92,6 +92,7 @@ cc_library_static {
             ],
         },
     },
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 // libosi unit tests for target and host

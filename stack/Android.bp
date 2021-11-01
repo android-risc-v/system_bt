@@ -214,6 +214,7 @@ cc_library_static {
         "libldacBT_abr",
     ],
     host_supported: true,
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 // Bluetooth stack unit tests for target

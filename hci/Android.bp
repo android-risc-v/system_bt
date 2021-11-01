@@ -52,6 +52,7 @@ cc_library_static {
         debuggable: {
             cflags: [
                 "-DBT_NET_DEBUG=true",
+                "-Wno-non-c-typedef-for-linkage"
             ],
         },
     },

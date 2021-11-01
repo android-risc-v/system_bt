@@ -36,6 +36,7 @@ cc_library_static {
     static_libs: [
         "libbt-protos-lite",
     ],
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 cc_test {

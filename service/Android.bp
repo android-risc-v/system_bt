@@ -218,4 +218,5 @@ cc_library_static {
         "hal/bluetooth_interface.cc",
         "logging_helpers.cc",
     ],
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }

@@ -30,4 +30,5 @@ cc_library_static {
         "system/bt/stack/include",
     ],
     host_supported: true,
+    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }

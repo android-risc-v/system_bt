@@ -32,6 +32,7 @@ cc_library_static {
     cflags: [
         /* we export all classes, so change default visibility, instead of having EXPORT_SYMBOL on each class*/
         "-fvisibility=default",
+        "-Wno-non-c-typedef-for-linkage",
     ],
     host_supported: true,
     srcs: [

@@ -64,6 +64,7 @@ cc_library_static {
     cflags: [
         "-Wall",
         "-Werror",
+        "-Wno-non-c-typedef-for-linkage"
     ],
     shared_libs: [
         "liblog",
