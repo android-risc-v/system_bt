@@ -14,7 +14,6 @@ cc_library_static {
     defaults: ["fluoride_defaults"],
     cflags: [
         "-DG722_SUPPORT_MALLOC",
-        "-Wno-non-c-typedef-for-linkage",
     ],
     srcs: [
         "g722_decode.cc",

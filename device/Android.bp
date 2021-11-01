@@ -31,7 +31,6 @@ cc_library_static {
     shared_libs: [
         "liblog",
     ],
-    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }
 
 // Bluetooth device unit tests for target

@@ -25,5 +25,4 @@ cc_library_static {
         "libprocessgroup",
     ],
     host_supported: true,
-    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }

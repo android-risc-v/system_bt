@@ -45,5 +45,4 @@ cc_library_static {
         "//apex_available:platform",
         "com.android.bluetooth.updatable",
     ],
-    cflags: ["-Wno-non-c-typedef-for-linkage"],
 }

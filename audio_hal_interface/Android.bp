@@ -52,7 +52,6 @@ cc_library_static {
     host_supported: true,
     cflags: [
         "-DBUILDCFG",
-        "-Wno-non-c-typedef-for-linkage",
     ],
 }
 
